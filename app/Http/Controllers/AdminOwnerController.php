@@ -12,7 +12,7 @@ class AdminOwnerController extends Controller
      */
     public function index()
     {
-        //
+        //hi my name is admin
     }
 
     /**
