@@ -5,9 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
-{   protected $guarded=[];
+class Chalet extends Model
+{
+    protected $guarded=[];
     use HasFactory;
+    public function images()
+    {
+        return $this->hasMany(Image::class);
+    }
     public function reviews()
     {
         return $this->hasMany(Review::class);
@@ -16,12 +21,8 @@ class User extends Model
     {
         return $this->hasMany(Booking::class);
     }
-    public function ownerProfile()
+    public function owner()
     {
-        return $this->hasOne(Owner_Profile::class);
-    }
-    public function chalets()
-    {
-        return $this->hasMany(Chalet::class, 'owner_id');
+        return $this->belongsTo(User::class, 'owner_id');
     }
 }
