@@ -14,7 +14,8 @@ class AdminOwnerController extends Controller
     {
         //hi my name is admin
         // new update for ward 
-        //  ward ubdated
+        //  war
+        //ghasan 
     }
 
     /**
