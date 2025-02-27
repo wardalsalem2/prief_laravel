@@ -25,3 +25,6 @@ Route::get('/detailse', function () {
 Route::get('/profaile', function () {
     return view('user.profaile');
 });
+Route::get('/chalets', function () {
+    return view('user.chalets');
+});

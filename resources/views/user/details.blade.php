@@ -38,7 +38,6 @@ $chalet = (object) [
 <div class="container-xxl py-5">
     <div class="container">
         <div class="row g-5">
-
             <!-- Left Side: Property Images & Details -->
             <div class="col-lg-8">
                 <div class="row g-4 align-items-center">
