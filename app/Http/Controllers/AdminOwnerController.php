@@ -12,7 +12,7 @@ class AdminOwnerController extends Controller
      */
     public function index()
     {
-        //
+        //sondos
     }
 
     /**
