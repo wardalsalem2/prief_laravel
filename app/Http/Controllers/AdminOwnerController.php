@@ -12,9 +12,12 @@ class AdminOwnerController extends Controller
      */
     public function index()
     {
-     
-       // hamzeh breif 
-        //ward
+        //sondos
+        //hi my name is admin
+        // new update for ward
+        //  war
+        //ghasan
+        // kjbfvknsfvsfd;vl
     }
 
     /**
