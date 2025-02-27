@@ -5,6 +5,7 @@
 <div class="cont">
     <div class="form sign-in">
         <h2>Welcome</h2>
+        
         <label>
             <span>Email</span>
             <input type="email" />
