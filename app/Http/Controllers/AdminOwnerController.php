@@ -5,14 +5,19 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class AdminController extends Controller
+class AdminOwnerController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+        //sondos
+        //hi my name is admin
+        // new update for ward
+        //  war
+        //ghasan
+        // kjbfvknsfvsfd;vl
     }
 
     /**
